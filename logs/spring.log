@@ -1,0 +1,559 @@
+2021-09-26 11:09:42.182  INFO 23836 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.3.2.5
+	Build:          1222
+	Build time:     11.04.2021 08:07:27 UTC
+	Branch          master
+	Commit:         7b914f2
+	Commit time:    09.04.2021 17:14:27 UTC
+	JVM:            11.0.8
+	Lavaplayer      1.3.76
+
+2021-09-26 11:09:42.278  INFO 23836 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-NGKPUUI with PID 23836 (C:\Users\Remag_OW\PycharmProjects\pyDiscordBotAttempt2\Lavalink.jar started by Remag_OW in C:\Users\Remag_OW\PycharmProjects\pyDiscordBotAttempt2)
+2021-09-26 11:09:42.279  INFO 23836 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-09-26 11:09:42.347  WARN 23836 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-26 11:09:43.177  WARN 23836 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-09-26 11:09:43.195  INFO 23836 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-09-26 11:09:43.195  INFO 23836 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 882 ms
+2021-09-26 11:09:43.478  WARN 23836 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-09-26 11:09:43.722  INFO 23836 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-09-26 11:09:43.859  INFO 23836 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-09-26 11:09:43.860  WARN 23836 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-09-26 11:09:44.021  INFO 23836 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-26 11:09:44.233  INFO 23836 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-09-26 11:09:44.242  INFO 23836 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-09-26 11:09:44.285  INFO 23836 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 7000 (http) with context path ''
+2021-09-26 11:09:44.288  INFO 23836 --- [main] lavalink.server.Launcher                 : Started Launcher in 2.489 seconds (JVM running for 3.001)
+2021-09-26 11:09:44.290  INFO 23836 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/Frederikam/Lavalink/issues/295
+2021-09-26 11:09:55.801  INFO 23836 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-26 11:09:55.802  INFO 23836 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-26 11:09:55.807  INFO 23836 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2021-09-26 11:09:55.823  INFO 23836 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:52073
+2021-09-26 11:09:55.873  INFO 23836 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:52073
+2021-09-26 11:09:55.888  INFO 23836 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2021-09-26 11:10:00.928  INFO 23836 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "138085700133322753", "sessionId": "e8d41f5f386501fa415ae4b0129f063c", "event": {"token": "0834cf836d2cde9e", "guild_id": "138085700133322753", "endpoint": "santa-clara1061.discord.media:443"}}
+2021-09-26 11:10:05.611  INFO 23836 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:bruh sound effect"
+2021-09-26 11:10:06.645  INFO 23836 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: bruh sound effect
+2021-09-26 11:10:08.462  INFO 23836 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAewIAFEJydWggU291bmQgRWZmZWN0ICMyAA1KYW1lIEJlbmVkaWN0AAAAAAAAB9AACzJaSXBGeXRDU1ZjAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MlpJcEZ5dENTVmMAB3lvdXR1YmUAAAAAAAAAAA==", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:10:10.594  INFO 23836 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "138085700133322753"}
+2021-09-26 11:19:17.574  INFO 23836 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:52073 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2021-09-26 11:19:20.500  INFO 23836 --- [XNIO-1 task-4] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:53802
+2021-09-26 11:19:20.503  INFO 23836 --- [XNIO-1 task-4] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:53802
+2021-09-26 11:19:20.504  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2021-09-26 11:19:58.966  WARN 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : Shutdown resumable session with key music-node because it has the same key as a newly disconnected resumable session.
+2021-09-26 11:19:58.967  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 11:19:58.968  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:53802 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2021-09-26 11:20:01.911  INFO 23836 --- [XNIO-1 task-5] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:56384
+2021-09-26 11:20:01.913  INFO 23836 --- [XNIO-1 task-5] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:56384
+2021-09-26 11:20:01.914  INFO 23836 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2021-09-26 11:20:09.956  INFO 23836 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "138085700133322753", "sessionId": "f768c0daa1f0736f0b1f539312d787bc", "event": {"token": "e70bb2d12361764c", "guild_id": "138085700133322753", "endpoint": "santa-clara1061.discord.media:443"}}
+2021-09-26 11:20:17.579  INFO 23836 --- [pool-2-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 11:20:58.977  INFO 23836 --- [pool-3-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 11:28:44.154  INFO 23836 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:56384 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2021-09-26 11:29:44.161  INFO 23836 --- [pool-4-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 11:38:03.479  INFO 23836 --- [XNIO-1 task-6] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:59547
+2021-09-26 11:38:03.482  INFO 23836 --- [XNIO-1 task-6] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:59547
+2021-09-26 11:38:03.483  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2021-09-26 11:38:24.143  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "138085700133322753", "sessionId": "5a1cef3ae2ca183ae072e39c1b6eefb6", "event": {"token": "e1ebe13ff44e9010", "guild_id": "138085700133322753", "endpoint": "santa-clara1061.discord.media:443"}}
+2021-09-26 11:38:25.535  INFO 23836 --- [XNIO-1 task-7] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=ekL881PJMjI"
+2021-09-26 11:38:25.935  INFO 23836 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Among Us (Role Reveal) - Sound Effect (HD)
+2021-09-26 11:38:26.184  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAkwIAKkFtb25nIFVzIChSb2xlIFJldmVhbCkgLSBTb3VuZCBFZmZlY3QgKEhEKQAPR2FtaW5nIFNvdW5kIEZYAAAAAAAAE4gAC2VrTDg4MVBKTWpJAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9ZWtMODgxUEpNakkAB3lvdXR1YmUAAAAAAAAAAA==", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:38:31.422  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "138085700133322753"}
+2021-09-26 11:39:05.434  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "138085700133322753", "sessionId": "5a1cef3ae2ca183ae072e39c1b6eefb6", "event": {"token": "4abb1c794c71fb14", "guild_id": "138085700133322753", "endpoint": "santa-clara1061.discord.media:443"}}
+2021-09-26 11:39:10.791  INFO 23836 --- [XNIO-1 task-9] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=Rg7F9GjYh5c&list=PLd_Geci0wQP-ats2Z4Waf7cRfSDZIwTgF&index=3"
+2021-09-26 11:39:11.258  INFO 23836 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist 1 second videos
+2021-09-26 11:39:11.541  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAeAIADjEgU2Vjb25kIFZpZGVvABBFZHVhcmQgRmVkb3LEjXVrAAAAAAAAA+gAC3lkY0hQSFN1WGlBAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9eWRjSFBIU3VYaUEAB3lvdXR1YmUAAAAAAAAAAA==", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:39:13.378  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAdwIAEE9uZSBTZWNvbmQgVmlkZW8ADUthcmltIE91aGFtbWkAAAAAAAAD6AALTDZCR0t6U0tFeTAAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1MNkJHS3pTS0V5MAAHeW91dHViZQAAAAAAAAAA", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:39:15.203  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAdwIAEE9uZSBTZWNvbmQgVmlkZW8ADVRoZV9WaXJ1c18xMjMAAAAAAAAD6AALUmc3RjlHalloNWMAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1SZzdGOUdqWWg1YwAHeW91dHViZQAAAAAAAAAA", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:39:17.079  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAdAIAEU9uZSBzZWNvbmQgdmlkZW8uAAlFbmR5IHR1YmUAAAAAAAAH0AALUWNFSnBwSGlDWU0AAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1RY0VKcHBIaUNZTQAHeW91dHViZQAAAAAAAAAA", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:39:18.636  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAeAIAEE9uZSBTZWNvbmQgVmlkZW8ADkFsaSBCb3JhIFNlemVyAAAAAAAAA+gAC1VvMU1XTjJPWGs4AAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9VW8xTVdOMk9YazgAB3lvdXR1YmUAAAAAAAAAAA==", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:39:20.159  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAdAIAEE9uZSBTZWNvbmQgVmlkZW8ACktpZXJhbklEOTgAAAAAAAAH0AALNzdEbDNGSXkxbGcAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj03N0RsM0ZJeTFsZwAHeW91dHViZQAAAAAAAAAA", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:39:21.139  INFO 23836 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: loading with filter com.sedmelluq.discord.lavaplayer.natives.ConnectorNativeLibLoader$$Lambda$542/0x000000080080a040@20981acc
+2021-09-26 11:39:21.146  INFO 23836 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: successfully loaded.
+2021-09-26 11:39:21.146  INFO 23836 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: loading with filter null
+2021-09-26 11:39:21.171  INFO 23836 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: successfully loaded.
+2021-09-26 11:39:22.204  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAhAIAGnRocm93YXdheS12aWRlby0xc2VjLWJsYWNrABBSb2RyaWdvIFNpbHZlaXJhAAAAAAAAB9AAC1Y5WnVYTGJ4YUtjAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9VjladVhMYnhhS2MAB3lvdXR1YmUAAAAAAAAAAA==", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:39:24.256  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAbgIAEE9uZSBTZWNvbmQgVmlkZW8ABEt5bGUAAAAAAAAD6AALbFNNOTU4R2xHV00AAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1sU005NThHbEdXTQAHeW91dHViZQAAAAAAAAAA", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:39:26.001  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAdAIAEE9uZSBTZWNvbmQgVmlkZW8AClBMQUFBIEFBQVQAAAAAAAAD6AALaTVkZlRLMTY0TUUAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1pNWRmVEsxNjRNRQAHeW91dHViZQAAAAAAAAAA", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:39:27.395  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAewIAEE9uZSBTZWNvbmQgVmlkZW8AEVdhaXRPbmVTZWNvbmRIZXJlAAAAAAAAA+gAC2poRkR5RGdNVlVJAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9amhGRHlEZ01WVUkAB3lvdXR1YmUAAAAAAAAAAA==", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:39:28.705  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAdQIAEE9uZSBTZWNvbmQgVmlkZW8AC1JlYWxseVNub3d5AAAAAAAAA+gAC0pVSkQ2TW05M3hZAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9SlVKRDZNbTkzeFkAB3lvdXR1YmUAAAAAAAAAAA==", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:39:30.614  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAewIAEk9uZSBTZWNvbmQgVmlkZW8gMgAPbWVkaXVtIHJhcmUgbWFuAAAAAAAAA+gAC3p5cHFlUHByckZVAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9enlwcWVQcHJyRlUAB3lvdXR1YmUAAAAAAAAAAA==", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:39:32.242  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAfwIAFk9uZSBTZWNvbmQgVmlkZW8gRWd5cHQAD1RlY2hub2xvZ3kgQmxvZwAAAAAAAAPoAAtuWmxlNEFHM0FQbwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PW5abGU0QUczQVBvAAd5b3V0dWJlAAAAAAAAAAA=", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:39:33.857  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAgAIAFk9uZSBTZWNvbmQgQmxhY2sgVmlkZW8AEE9jdGF2aWFuIER1ZGNlYWMAAAAAAAAD6AALaDNTXzEybGZ6T1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1oM1NfMTJsZnpPWQAHeW91dHViZQAAAAAAAAAA", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:39:35.694  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAiAIAK0hvdyBNYW55IFZpZXdzIERvZXMgQSAxIFNlYyBWaWRlbyBDYW4gR2V0ID8AAzBORQAAAAAAAAfQAAtBaVJWaGNKSkkzdwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PUFpUlZoY0pKSTN3AAd5b3V0dWJlAAAAAAAAAAA=", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:39:38.387  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAgwIAEE9uZSBzZWNvbmQgdmlkZW8AGWdldCBtZSB0byA1MCwwMDAgbm8gdmlkZW8AAAAAAAAH0AALRVA5dDU3NEtTS2MAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1FUDl0NTc0S1NLYwAHeW91dHViZQAAAAAAAAAA", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:39:40.742  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAegIAEVdhc3RlIG9mIDEgc2Vjb25kAA9zb21lIHJhbmRvbSBndXkAAAAAAAAH0AALa2ZtSnpGSDZRb2MAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1rZm1KekZINlFvYwAHeW91dHViZQAAAAAAAAAA", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:39:43.017  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAdwIAFzEgc2Vjb25kIHZpZGVvIFR1dG9yaWFsAAZQbHVnTWEAAAAAAAAD6AALWm1DV3F0ZmRTN0UAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1abUNXcXRmZFM3RQAHeW91dHViZQAAAAAAAAAA", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:39:44.761  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAdQIAFFRoZSBvbmUgc2Vjb25kIHZpZGVvAAdOb3QgWmFjAAAAAAAAA+gAC3pVUEF3dDF4ZGJFAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9elVQQXd0MXhkYkUAB3lvdXR1YmUAAAAAAAAAAA==", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:39:46.526  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAfgIADjEgc2Vjb25kIHZpZGVvABZQbGF5aW5nd2l0aFRhbm5lciBDcnV6AAAAAAAAA+gAC0sxeldBdjlhd2w4AAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9SzF6V0F2OWF3bDgAB3lvdXR1YmUAAAAAAAAAAA==", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:39:48.113  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAjgIAKU9ORSBTRUNPTkQgVklERU89IE9ORSBNSUxMIFZJRVcgQ2hhbGxhbmdlAAtGdW5ueVByaW5jZQAAAAAAAAfQAAstSGJGTlMtRmhMawABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PS1IYkZOUy1GaExrAAd5b3V0dWJlAAAAAAAAAAA=", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:39:50.707  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAiAIAEEEgMSBTZWNvbmQgVmlkZW8AHlNhbHRUdXJ0bGXigJlzIDJuZCBvZiBjaGFubmVscwAAAAAAAAPoAAtYSmU2N1BTSWNRawABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PVhKZTY3UFNJY1FrAAd5b3V0dWJlAAAAAAAAAAA=", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:39:51.956  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAiAIAJE1vc3Qgc3R1cGlkZXN0IG9uZSBzZWNvbmQgdmlkZW8gZXZlcgAKR29vZG9sJ0NhegAAAAAAAAfQAAtQNWZEbms3bkt2NAABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PVA1ZkRuazduS3Y0AAd5b3V0dWJlAAAAAAAAAAA=", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:39:54.153  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAdAIAEE9uZSBzZWNvbmQgdmlkZW8ACkZveHkgR2FtZXIAAAAAAAAH0AALNXNxSFRpZmd6V2sAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj01c3FIVGlmZ3pXawAHeW91dHViZQAAAAAAAAAA", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:39:56.073  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAgQIAHU9uZSBzZWNvbmQgdmlkZW8gKHdpdGggbm9pc2UpAApJIExvdmUgWW91AAAAAAAAA+gAC2IwRVB5Uy1HQlVZAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9YjBFUHlTLUdCVVkAB3lvdXR1YmUAAAAAAAAAAA==", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:39:57.121  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAegIAHDEgc2FuaXllbGlrIHZpZGVvIG9uZSBzZWNvbmQABEtlZXYAAAAAAAAD6AALME9ha25JRGtvMGcAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj0wT2FrbklEa28wZwAHeW91dHViZQAAAAAAAAAA", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:39:58.254  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAfQIAFE9uZSBzZWNvbmQgYWdhaW4hISEhAA9Kb2huIFdpbGxpYW1zb24AAAAAAAAD6AALTndrUlF1S2hWX00AAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1Od2tSUXVLaFZfTQAHeW91dHViZQAAAAAAAAAA", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:39:59.365  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAdQIAEE9uZSBTZWNvbmQgVmlkZW8AC0VsaGFtIE1hbXVuAAAAAAAAB9AAC3l4MWVEazlvenpBAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9eXgxZURrOW96ekEAB3lvdXR1YmUAAAAAAAAAAA==", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:40:01.395  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAfQIAFFRoZSBPTkUgc2Vjb25kIHZpZGVvAA9UaGVQZW5ndWluR2FtZXIAAAAAAAAH0AALM1ctUDdoLXlHSEUAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj0zVy1QN2gteUdIRQAHeW91dHViZQAAAAAAAAAA", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:40:03.797  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAegIAEE9uZSBzZWNvbmQgVmlkZW8AEEphY29iUmFpbnlUdXJ0bGUAAAAAAAAH0AALTF92dTRwdmRiTHcAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1MX3Z1NHB2ZGJMdwAHeW91dHViZQAAAAAAAAAA", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:40:05.764  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAigIAJVNIT1JURVNUIFZJREVPIE9OIFlPVVRVQkUhIC4xIFNFQ09ORCEAC0dhcyBTdGF0aW9uAAAAAAAAA+gAC0luUHp2QzR2dVgwAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9SW5QenZDNHZ1WDAAB3lvdXR1YmUAAAAAAAAAAA==", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:40:06.457  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAnQIAMU15IE1vdmllIDEgc2Vjb25kIHRlc3QgKGFuIGFuaW1hdGlvbikgKHJlYWQgZGVzYykAEk9yaWdpbmFsIFJvYmxveGlhbgAAAAAAAAfQAAtkb3hWTm43bW5PcwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWRveFZObjdtbk9zAAd5b3V0dWJlAAAAAAAAAAA=", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:40:08.755  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAlAIAKEEgb25lIHNlY29uZCB2aWRlbyBvZiBhYnNvbHV0ZWx5IG5vdGhpbmcAEnRoZSByYW5kb20gY2hhbm5lbAAAAAAAAAPoAAsxaURjbUNjRGxfVQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTFpRGNtQ2NEbF9VAAd5b3V0dWJlAAAAAAAAAAA=", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:40:09.754  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAmwIAO015IGJhZCAxIHNlY29uZCBhbmltYXRpb24gaW4gTVMgUGFpbnQgKE1vdmllIE1ha2VyIEVkaXRpb24pAAZTdG9ybXkAAAAAAAAH0AALUzZ1UTFIdlo3QjAAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1TNnVRMUh2WjdCMAAHeW91dHViZQAAAAAAAAAA", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:40:11.977  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAlAIAJUxlaWNlc3RlciBMZWdlbmRzIC0gb25lIHNlY29uZCB2aWRlbyEAFUF1ZHJleSBWYXVnaGFuLUZpc2hlcgAAAAAAAAPoAAt4c2dROHh2N2Q2RQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PXhzZ1E4eHY3ZDZFAAd5b3V0dWJlAAAAAAAAAAA=", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:40:13.673  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAgwIAHk9uZSBTZWNvbmQgT2YgRWxkaW46IFRoZSBWaWRlbwALYWhndWlsbGF1bWUAAAAAAAAD6AALaE5pZDllTjJLVWsAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1oTmlkOWVOMktVawAHeW91dHViZQAAAAAAAAAA", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:40:15.467  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAgwIAH09uZSBzZWNvbmQgdmlkZW8gb2YgYSBoYXBweSBkb2cACkZ1biBQZW9wbGUAAAAAAAAH0AALWjctbWwyaExHWmsAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aNy1tbDJoTEdaawAHeW91dHViZQAAAAAAAAAA", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:40:18.124  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAcAIAEkEgb25lIHNlY29uZCB2aWRlbwAEQ2xheQAAAAAAAAu4AAtpMFRiX1ZnVWJtUQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWkwVGJfVmdVYm1RAAd5b3V0dWJlAAAAAAAAAAA=", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:40:21.996  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAigIAHnN1cHBvc2UgdG8gYmUgb25lIHNlY29uZCB2aWRlbwASdGhlIGZ1biBBSiBjaGFubmVsAAAAAAAAB9AAC3JKY29KRXJRbHEwAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9ckpjb0pFclFscTAAB3lvdXR1YmUAAAAAAAAAAA==", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:40:23.620  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAfwIAEE9uZSBzZWNvbmQgdmlkZW8AFUxpbG9UdWJlSEQgTGlsb1R1YmVIRAAAAAAAAAfQAAs1dGRzY2ZtQ0tfZwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTV0ZHNjZm1DS19nAAd5b3V0dWJlAAAAAAAAAAA=", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:40:25.882  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAeQIADjEgU2Vjb25kIFZpZGVvABFndWlsbGVtZXR0ZSBsdWNhcwAAAAAAAAfQAAtqcTROUllDaWdkNAABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWpxNE5SWUNpZ2Q0AAd5b3V0dWJlAAAAAAAAAAA=", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:40:28.025  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAigIAIEJlc3Qgb25lIHNlY29uZCB2aWRlbyBldmVyISEgKl8qABBTaGFod2F0IEhhc25haW5lAAAAAAAAB9AAC2xfT1U2MnFWeHFzAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9bF9PVTYycVZ4cXMAB3lvdXR1YmUAAAAAAAAAAA==", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:40:30.414  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAdgIAFE5iYSAyazE2IDEgc2VjIHZpZGVvAAhjaGFpbXJvZAAAAAAAAAPoAAtlZWtRZWZvYWZ2dwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWVla1FlZm9hZnZ3AAd5b3V0dWJlAAAAAAAAAAA=", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:40:31.404  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAegIAEE9uZS1zZWNvbmQgdmlkZW8AEExhbmQgU3BlY3VsYXRpb24AAAAAAAAH0AALbkRhQlZMTWpCVGcAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1uRGFCVkxNakJUZwAHeW91dHViZQAAAAAAAAAA", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:40:33.455  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAhQIAJFRoZSBiZXN0IG9uZSBzZWNvbmQgdmlkZW8gb24geW91dHViZQAHeXhYeXlYeQAAAAAAAAPoAAtPdGtGVDBmQW55UQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PU90a0ZUMGZBbnlRAAd5b3V0dWJlAAAAAAAAAAA=", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:40:34.934  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAdAIAEjggT3JlcyBpbiAxIFNlY29uZAAIR2FyZXRoUFcAAAAAAAAD6AALa0FRVTRTYWE3TDQAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1rQVFVNFNhYTdMNAAHeW91dHViZQAAAAAAAAAA", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:40:36.995  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAkQIAKyJPTkUgU0VDT05EIE1PVklFIiAgV09STEQnUyBTSE9SVEVTVCBNT1ZJRSEADERlbm5pcyBKYWNpdwAAAAAAAAPoAAtXNFcydjNvMnBXOAABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PVc0VzJ2M28ycFc4AAd5b3V0dWJlAAAAAAAAAAA=", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:40:38.679  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAbwIACjEgU0VDIFZJRCEAC0xhdXJlbiBLaWZmAAAAAAAAA+gAC3JVNldmX1FjVDc4AAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9clU2V2ZfUWNUNzgAB3lvdXR1YmUAAAAAAAAAAA==", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:40:40.652  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAcAIADjEgU2Vjb25kIFZpZGVvAAhEciBaw6lybwAAAAAAAAfQAAtjTXdlWkpwd2hfUQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWNNd2VaSnB3aF9RAAd5b3V0dWJlAAAAAAAAAAA=", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:40:42.374  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAdAIADTEgc2Vjb25kIGZpbG0ADUJvZ29ibGluR2FtZXIAAAAAAAAH0AALSFdpdmlzTFYzTW8AAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1IV2l2aXNMVjNNbwAHeW91dHViZQAAAAAAAAAA", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:40:44.065  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAegIAE09uZSBTZWNvbmQgSHlwbm9zaXMADVVsdHJhSHlwbm9zaXMAAAAAAAAH0AALUS1oc3h6elNFSEUAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1RLWhzeHp6U0VIRQAHeW91dHViZQAAAAAAAAAA", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:40:45.901  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAjwIAKFNob3J0ZXN0IFZpbmUgVmlkZW8gRXZlciBPbmUgU2Vjb25kIExvbmcADXZlZ2dpZXBvd2VyZWQAAAAAAAAD6AALNm51SzR3dUtBYTgAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj02bnVLNHd1S0FhOAAHeW91dHViZQAAAAAAAAAA", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:40:47.047  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAowIAQkphcGFuZXNlIEdpcmwgZ2V0cyBzaG90IGluIHRoZSBmYWNlIEhvcnJvciBNb3ZpZSAtIDEgc2Vjb25kIEZpbG0gLQAHcGV0ZXIgZAAAAAAAAAfQAAtqLXNhR19wUm1hWQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWotc2FHX3BSbWFZAAd5b3V0dWJlAAAAAAAAAAA=", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:40:49.064  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAgAIAGkJlc3Qgb25lIHNlY29uZCB2aWRlbyBldmVyAAxPTXlHb3NoIEpvc2gAAAAAAAAH0AALS1BwbzlnQVdYM28AAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1LUHBvOWdBV1gzbwAHeW91dHViZQAAAAAAAAAA", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:40:50.998  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAgQIAGVNob3J0IHZpZGVvIDEgc2Vjb25kIGxvbmcADkphY2sgTGF3cmVuc29uAAAAAAAAB9AACzBzdGdxd0h3Qy1jAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MHN0Z3F3SHdDLWMAB3lvdXR1YmUAAAAAAAAAAA==", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:40:52.564  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAbgIADjEgU2Vjb25kIFZpZGVvAAZhVGV3YW4AAAAAAAAH0AALZmc5OUNEUlE0Z2sAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1mZzk5Q0RSUTRnawAHeW91dHViZQAAAAAAAAAA", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:40:54.402  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAigIAFU9uZSBzZWNvbmQsIG9uZSBzdG9yeQAbUGF0cml6aW8gTWFydGluZXogUm9kcmlndWV6AAAAAAAAB9AACzNIUjJVMmxSVi1NAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9M0hSMlUybFJWLU0AB3lvdXR1YmUAAAAAAAAAAA==", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:40:55.585  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "138085700133322753", "sessionId": "5a1cef3ae2ca183ae072e39c1b6eefb6", "event": {"token": "36f39a6c3c61def8", "guild_id": "138085700133322753", "endpoint": "santa-clara1061.discord.media:443"}}
+2021-09-26 11:40:56.306  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAdgIADjAgc2Vjb25kIFZpZGVvAA5tb3NoaW1hc3RlcjEyMwAAAAAAAAPoAAtCVGEyUDhaLU8wdwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PUJUYTJQOFotTzB3AAd5b3V0dWJlAAAAAAAAAAA=", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:40:56.785  WARN 23836 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.t.p.LocalAudioTrackExecutor      : Suspicious exception for playback of BTa2P8Z-O0w
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: The audio codec used in the track is not supported.
+	at com.sedmelluq.discord.lavaplayer.container.mpeg.MpegAudioTrack.loadAudioTrack(MpegAudioTrack.java:65) ~[lavaplayer-1.3.76.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.container.mpeg.MpegAudioTrack.process(MpegAudioTrack.java:41) ~[lavaplayer-1.3.76.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.track.DelegatedAudioTrack.processDelegate(DelegatedAudioTrack.java:25) ~[lavaplayer-1.3.76.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioTrack.processStatic(YoutubeAudioTrack.java:59) ~[lavaplayer-1.3.76.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioTrack.process(YoutubeAudioTrack.java:49) ~[lavaplayer-1.3.76.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.track.playback.LocalAudioTrackExecutor.execute(LocalAudioTrackExecutor.java:104) ~[lavaplayer-1.3.76.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.lambda$executeTrack$1(DefaultAudioPlayerManager.java:348) ~[lavaplayer-1.3.76.jar!/:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+	Suppressed: com.sedmelluq.discord.lavaplayer.tools.exception.EnvironmentInformation: 
+  lavaplayer.version: 1.3.76
+  os.arch: amd64
+  os.name: Windows 10
+  os.version: 10.0
+  java.vendor: AdoptOpenJDK
+  java.version: 11.0.8
+  java.runtime.version: 11.0.8+10
+  java.vm.version: 11.0.8+10
+
+2021-09-26 11:40:56.787  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAoAIAPFNob3J0ZXN0IFZpZGVvIG9uIFlvdXR1YmUgRVZFUiEgMCBzZWNvbmRzIG5lYXJseSAxIChmYXN0ZXN0KQAKT25lIFJhbmRvbQAAAAAAAAPoAAs3LXFHS3F2ZVphTQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTctcUdLcXZlWmFNAAd5b3V0dWJlAAAAAAAAAAA=", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:40:57.641  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAfwIAGk1vbnRCbGFuYyBPbmUgc2Vjb25kIE1vdmllAAtTdSBZZWUgSnVuZwAAAAAAAAfQAAtjVE9rLUpmejc4WQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWNUT2stSmZ6NzhZAAd5b3V0dWJlAAAAAAAAAAA=", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:40:59.393  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAhAIAIW9uZSBzZWNvbmQgIGxvbmcgIHR3byBzdGVwcyB2aWRlbwAJYXZpIHJvc2VuAAAAAAAAB9AAC2RaRWVrbDVCNDJnAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9ZFpFZWtsNUI0MmcAB3lvdXR1YmUAAAAAAAAAAA==", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:41:01.120  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAjQIAJlRIRSBFTlRJUkUgU1BPTkdFQk9CIE1PVklFIElOIDEgU0VDT05EAA1HUmFmZlBpY3R1cmVzAAAAAAAAB9AAC2wyMWVsck42QjlvAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9bDIxZWxyTjZCOW8AB3lvdXR1YmUAAAAAAAAAAA==", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:41:03.325  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAcwIAEE9uZSBTZWNvbmQgdmlkZW8ACVRhbG9yOTI5OAAAAAAAAAPoAAtaWWpHamNtWW11cwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PVpZakdqY21ZbXVzAAd5b3V0dWJlAAAAAAAAAAA=", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:41:04.721  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAfwIAG0RvbmtleSAtLSBvbmUtc2Vjb25kICBtb3ZpZQAKSm9zaHVhIEZveAAAAAAAAAfQAAtrMjQ0bjBDalphZwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWsyNDRuMENqWmFnAAd5b3V0dWJlAAAAAAAAAAA=", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:41:07.063  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAjwIAJE9uZSBzZWNvbmQgdGhhdCB3aWxsIHdhc3RlIHlvdXIgbGlmZQARVGhlRXZlcnlkYXlCYW5hbmEAAAAAAAAD6AALRGREcHVEcU95ckEAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1EZERwdURxT3lyQQAHeW91dHViZQAAAAAAAAAA", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:41:07.234  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:59547 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2021-09-26 11:41:18.033  INFO 23836 --- [XNIO-1 task-11] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:61506
+2021-09-26 11:41:18.036  INFO 23836 --- [XNIO-1 task-11] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:61506
+2021-09-26 11:41:18.037  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2021-09-26 11:41:20.097  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "138085700133322753", "sessionId": "39d1dfb79bd367cfa0477293804db9a4", "event": {"token": "a075aff382604374", "guild_id": "138085700133322753", "endpoint": "santa-clara1061.discord.media:443"}}
+2021-09-26 11:41:24.350  INFO 23836 --- [XNIO-1 task-12] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:among us sound effect"
+2021-09-26 11:41:25.186  INFO 23836 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: among us sound effect
+2021-09-26 11:41:25.482  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAlwIANVRoaXMgaXMgaG93IHRoZSBzb3VuZHMgb2YgQW1vbmcgVXMgd2VyZSBhY3R1YWxseSBtYWRlAAhEYXZpZGxhcAAAAAAAAeB4AAtaNHJOWlFVN3NxUQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PVo0ck5aUVU3c3FRAAd5b3V0dWJlAAAAAAAAAAA=", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 11:42:07.239  INFO 23836 --- [pool-5-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 11:43:28.309  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "138085700133322753"}
+2021-09-26 11:46:37.841  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:61506 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2021-09-26 11:46:40.709  INFO 23836 --- [XNIO-1 task-14] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:58290
+2021-09-26 11:46:40.711  INFO 23836 --- [XNIO-1 task-14] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:58290
+2021-09-26 11:46:40.713  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2021-09-26 11:46:47.934  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "138085700133322753", "sessionId": "4a7abdc7da9dac4c38cb15b752917eb1", "event": {"token": "616f3b0c8e7ae4de", "guild_id": "138085700133322753", "endpoint": "santa-clara1061.discord.media:443"}}
+2021-09-26 11:47:37.849  INFO 23836 --- [pool-6-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 11:48:24.908  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:58290 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2021-09-26 11:48:27.864  INFO 23836 --- [XNIO-1 task-15] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:51797
+2021-09-26 11:48:27.866  INFO 23836 --- [XNIO-1 task-15] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:51797
+2021-09-26 11:48:27.867  INFO 23836 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2021-09-26 11:48:36.219  INFO 23836 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "138085700133322753", "sessionId": "289de8e6fea738a496d10acfc3dc107f", "event": {"token": "95885260f5634a8a", "guild_id": "138085700133322753", "endpoint": "santa-clara1061.discord.media:443"}}
+2021-09-26 11:48:37.572  INFO 23836 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "138085700133322753"}
+2021-09-26 11:49:24.917  INFO 23836 --- [pool-7-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 11:49:26.782  INFO 23836 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "138085700133322753", "sessionId": "289de8e6fea738a496d10acfc3dc107f", "event": {"token": "53f366457cca9070", "guild_id": "138085700133322753", "endpoint": "santa-clara1061.discord.media:443"}}
+2021-09-26 11:49:36.835  INFO 23836 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "138085700133322753"}
+2021-09-26 11:51:15.913  INFO 23836 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:51797 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2021-09-26 11:52:15.919  INFO 23836 --- [pool-8-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 12:02:59.544  INFO 23836 --- [XNIO-1 task-16] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:56369
+2021-09-26 12:02:59.546  INFO 23836 --- [XNIO-1 task-16] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:56369
+2021-09-26 12:02:59.547  INFO 23836 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2021-09-26 12:03:08.782  INFO 23836 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "138085700133322753", "sessionId": "b76edb80b9629a1348219afbe8e569d9", "event": {"token": "f5f7d425a17c35dc", "guild_id": "138085700133322753", "endpoint": "santa-clara1061.discord.media:443"}}
+2021-09-26 12:03:19.610  INFO 23836 --- [XNIO-1 task-17] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:bruh sound effect #2"
+2021-09-26 12:03:20.237  INFO 23836 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: bruh sound effect #2
+2021-09-26 12:03:20.512  INFO 23836 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAewIAFEJydWggU291bmQgRWZmZWN0ICMyAA1KYW1lIEJlbmVkaWN0AAAAAAAAB9AACzJaSXBGeXRDU1ZjAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MlpJcEZ5dENTVmMAB3lvdXR1YmUAAAAAAAAAAA==", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 12:03:22.472  INFO 23836 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "138085700133322753"}
+2021-09-26 12:03:38.215  INFO 23836 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "138085700133322753", "sessionId": "b76edb80b9629a1348219afbe8e569d9", "event": {"token": "718b6501ec2268aa", "guild_id": "138085700133322753", "endpoint": "santa-clara1061.discord.media:443"}}
+2021-09-26 12:03:42.129  INFO 23836 --- [XNIO-1 task-19] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:bruh sound effect #2"
+2021-09-26 12:03:42.611  INFO 23836 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: bruh sound effect #2
+2021-09-26 12:03:43.298  INFO 23836 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAewIAFEJydWggU291bmQgRWZmZWN0ICMyAA1KYW1lIEJlbmVkaWN0AAAAAAAAB9AACzJaSXBGeXRDU1ZjAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MlpJcEZ5dENTVmMAB3lvdXR1YmUAAAAAAAAAAA==", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 12:03:44.869  INFO 23836 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "138085700133322753"}
+2021-09-26 12:03:49.885  INFO 23836 --- [XNIO-1 task-21] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:bruh sound effect #2"
+2021-09-26 12:03:50.548  INFO 23836 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: bruh sound effect #2
+2021-09-26 12:03:50.813  INFO 23836 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAewIAFEJydWggU291bmQgRWZmZWN0ICMyAA1KYW1lIEJlbmVkaWN0AAAAAAAAB9AACzJaSXBGeXRDU1ZjAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MlpJcEZ5dENTVmMAB3lvdXR1YmUAAAAAAAAAAA==", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 12:03:52.391  INFO 23836 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "138085700133322753"}
+2021-09-26 12:04:45.818  INFO 23836 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:56369 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2021-09-26 12:05:45.822  INFO 23836 --- [pool-9-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 12:16:16.503  INFO 23836 --- [XNIO-1 task-23] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:58259
+2021-09-26 12:16:16.506  INFO 23836 --- [XNIO-1 task-23] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:58259
+2021-09-26 12:16:16.506  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2021-09-26 12:16:23.121  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "138085700133322753", "sessionId": "2c1acd72f5c8f1f0dfc95fb7008c0042", "event": {"token": "6e91ff80e185b899", "guild_id": "138085700133322753", "endpoint": "santa-clara1061.discord.media:443"}}
+2021-09-26 12:16:36.983  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "138085700133322753"}
+2021-09-26 12:19:25.286  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:58259 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2021-09-26 12:19:28.220  INFO 23836 --- [XNIO-1 task-24] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:52076
+2021-09-26 12:19:28.222  INFO 23836 --- [XNIO-1 task-24] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:52076
+2021-09-26 12:19:28.223  INFO 23836 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2021-09-26 12:19:35.984  INFO 23836 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "138085700133322753", "sessionId": "0b67c5486557266ba820a0a82a2957b4", "event": {"token": "e16f7a88ec831226", "guild_id": "138085700133322753", "endpoint": "santa-clara1061.discord.media:443"}}
+2021-09-26 12:20:02.210  INFO 23836 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "138085700133322753"}
+2021-09-26 12:20:12.599  WARN 23836 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : Shutdown resumable session with key music-node because it has the same key as a newly disconnected resumable session.
+2021-09-26 12:20:12.599  INFO 23836 --- [XNIO-1 I/O-5] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 12:20:12.600  INFO 23836 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:52076 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2021-09-26 12:20:15.488  INFO 23836 --- [XNIO-1 task-25] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:53050
+2021-09-26 12:20:15.491  INFO 23836 --- [XNIO-1 task-25] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:53050
+2021-09-26 12:20:15.492  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2021-09-26 12:20:18.399  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "138085700133322753", "sessionId": "b414b6fe41dfe1d8046125fec5fe8e5b", "event": {"token": "2c1e99545be79dce", "guild_id": "138085700133322753", "endpoint": "santa-clara1061.discord.media:443"}}
+2021-09-26 12:20:25.299  INFO 23836 --- [pool-10-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 12:20:33.367  INFO 23836 --- [XNIO-1 task-26] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=2ZIpFytCSVc"
+2021-09-26 12:20:33.808  INFO 23836 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Bruh Sound Effect #2
+2021-09-26 12:20:34.123  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAewIAFEJydWggU291bmQgRWZmZWN0ICMyAA1KYW1lIEJlbmVkaWN0AAAAAAAAA+gACzJaSXBGeXRDU1ZjAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MlpJcEZ5dENTVmMAB3lvdXR1YmUAAAAAAAAAAA==", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 12:20:35.932  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "138085700133322753"}
+2021-09-26 12:21:10.753  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "138085700133322753"}
+2021-09-26 12:21:12.603  INFO 23836 --- [pool-11-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 12:21:27.979  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:53050 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2021-09-26 12:21:30.875  INFO 23836 --- [XNIO-1 task-28] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:55679
+2021-09-26 12:21:30.877  INFO 23836 --- [XNIO-1 task-28] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:55679
+2021-09-26 12:21:30.878  INFO 23836 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2021-09-26 12:21:34.027  INFO 23836 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "138085700133322753", "sessionId": "6779ddf26602283624a1f9d4caf0a164", "event": {"token": "b9f3513e3a21e310", "guild_id": "138085700133322753", "endpoint": "santa-clara1061.discord.media:443"}}
+2021-09-26 12:21:35.018  INFO 23836 --- [XNIO-1 task-29] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=2ZIpFytCSVc"
+2021-09-26 12:21:35.323  INFO 23836 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Bruh Sound Effect #2
+2021-09-26 12:21:35.629  INFO 23836 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAewIAFEJydWggU291bmQgRWZmZWN0ICMyAA1KYW1lIEJlbmVkaWN0AAAAAAAAA+gACzJaSXBGeXRDU1ZjAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MlpJcEZ5dENTVmMAB3lvdXR1YmUAAAAAAAAAAA==", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 12:21:37.373  INFO 23836 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "138085700133322753"}
+2021-09-26 12:21:39.372  INFO 23836 --- [XNIO-1 task-31] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=2ZIpFytCSVc"
+2021-09-26 12:21:39.711  INFO 23836 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Bruh Sound Effect #2
+2021-09-26 12:21:39.895  INFO 23836 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAewIAFEJydWggU291bmQgRWZmZWN0ICMyAA1KYW1lIEJlbmVkaWN0AAAAAAAAA+gACzJaSXBGeXRDU1ZjAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MlpJcEZ5dENTVmMAB3lvdXR1YmUAAAAAAAAAAA==", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 12:21:41.619  INFO 23836 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "138085700133322753"}
+2021-09-26 12:22:27.986  INFO 23836 --- [pool-12-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 12:23:03.361  INFO 23836 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:55679 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2021-09-26 12:23:06.219  INFO 23836 --- [XNIO-1 task-33] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:53978
+2021-09-26 12:23:06.221  INFO 23836 --- [XNIO-1 task-33] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:53978
+2021-09-26 12:23:06.222  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2021-09-26 12:23:56.931  WARN 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : Shutdown resumable session with key music-node because it has the same key as a newly disconnected resumable session.
+2021-09-26 12:23:56.932  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 12:23:56.934  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:53978 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2021-09-26 12:23:59.869  INFO 23836 --- [XNIO-1 task-34] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:50411
+2021-09-26 12:23:59.871  INFO 23836 --- [XNIO-1 task-34] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:50411
+2021-09-26 12:23:59.872  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2021-09-26 12:24:03.376  INFO 23836 --- [pool-13-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 12:24:20.375  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "138085700133322753", "sessionId": "2834dd339aaf39c39f0d0a298eb200d4", "event": {"token": "b9f3513e3a21e310", "guild_id": "138085700133322753", "endpoint": "santa-clara1061.discord.media:443"}}
+2021-09-26 12:24:27.510  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "138085700133322753"}
+2021-09-26 12:24:56.938  INFO 23836 --- [pool-14-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 12:34:28.666  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:50411 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2021-09-26 12:34:31.613  INFO 23836 --- [XNIO-1 task-35] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:51282
+2021-09-26 12:34:31.617  INFO 23836 --- [XNIO-1 task-35] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:51282
+2021-09-26 12:34:31.618  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2021-09-26 12:34:38.399  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "138085700133322753", "sessionId": "b393ca909f7d20ddd3f0fe8356245c80", "event": {"token": "d513d3cb7d5ae635", "guild_id": "138085700133322753", "endpoint": "santa-clara1061.discord.media:443"}}
+2021-09-26 12:34:44.338  INFO 23836 --- [XNIO-1 task-36] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=2ZIpFytCSVc"
+2021-09-26 12:34:44.740  INFO 23836 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Bruh Sound Effect #2
+2021-09-26 12:34:44.958  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAewIAFEJydWggU291bmQgRWZmZWN0ICMyAA1KYW1lIEJlbmVkaWN0AAAAAAAAA+gACzJaSXBGeXRDU1ZjAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MlpJcEZ5dENTVmMAB3lvdXR1YmUAAAAAAAAAAA==", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 12:34:46.775  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "138085700133322753"}
+2021-09-26 12:34:54.159  INFO 23836 --- [XNIO-1 task-38] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=2ZIpFytCSVc"
+2021-09-26 12:34:54.504  INFO 23836 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Bruh Sound Effect #2
+2021-09-26 12:34:54.799  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAewIAFEJydWggU291bmQgRWZmZWN0ICMyAA1KYW1lIEJlbmVkaWN0AAAAAAAAA+gACzJaSXBGeXRDU1ZjAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MlpJcEZ5dENTVmMAB3lvdXR1YmUAAAAAAAAAAA==", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 12:34:56.415  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "138085700133322753"}
+2021-09-26 12:35:00.451  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "138085700133322753"}
+2021-09-26 12:35:28.669  INFO 23836 --- [pool-15-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 12:43:22.865  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:51282 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2021-09-26 12:43:25.917  INFO 23836 --- [XNIO-1 task-40] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:55277
+2021-09-26 12:43:25.920  INFO 23836 --- [XNIO-1 task-40] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:55277
+2021-09-26 12:43:25.921  INFO 23836 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2021-09-26 12:43:47.701  INFO 23836 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "138085700133322753", "sessionId": "8ee7fc290c6b409425eca757fed6a2d7", "event": {"token": "4280cb9fddc7688f", "guild_id": "138085700133322753", "endpoint": "santa-clara1061.discord.media:443"}}
+2021-09-26 12:43:48.801  INFO 23836 --- [XNIO-1 task-41] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=2ZIpFytCSVc"
+2021-09-26 12:43:49.214  INFO 23836 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Bruh Sound Effect #2
+2021-09-26 12:43:49.459  INFO 23836 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAewIAFEJydWggU291bmQgRWZmZWN0ICMyAA1KYW1lIEJlbmVkaWN0AAAAAAAAA+gACzJaSXBGeXRDU1ZjAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MlpJcEZ5dENTVmMAB3lvdXR1YmUAAAAAAAAAAA==", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 12:43:50.991  INFO 23836 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "138085700133322753"}
+2021-09-26 12:44:22.879  INFO 23836 --- [pool-16-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 12:44:33.077  INFO 23836 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:55277 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2021-09-26 12:44:35.981  INFO 23836 --- [XNIO-1 task-43] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:55333
+2021-09-26 12:44:35.984  INFO 23836 --- [XNIO-1 task-43] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:55333
+2021-09-26 12:44:35.985  INFO 23836 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2021-09-26 12:44:38.642  INFO 23836 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "138085700133322753", "sessionId": "0e687a9187d09004ef1e9be47f1bc3f8", "event": {"token": "4628c5419437a803", "guild_id": "138085700133322753", "endpoint": "santa-clara1061.discord.media:443"}}
+2021-09-26 12:44:41.176  INFO 23836 --- [XNIO-1 task-44] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=2ZIpFytCSVc"
+2021-09-26 12:44:41.544  INFO 23836 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Bruh Sound Effect #2
+2021-09-26 12:44:41.794  INFO 23836 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAewIAFEJydWggU291bmQgRWZmZWN0ICMyAA1KYW1lIEJlbmVkaWN0AAAAAAAAA+gACzJaSXBGeXRDU1ZjAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MlpJcEZ5dENTVmMAB3lvdXR1YmUAAAAAAAAAAA==", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 12:44:43.354  INFO 23836 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "138085700133322753"}
+2021-09-26 12:45:33.078  INFO 23836 --- [pool-17-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 12:46:17.259  INFO 23836 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:55333 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2021-09-26 12:46:20.142  INFO 23836 --- [XNIO-1 task-46] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:55399
+2021-09-26 12:46:20.144  INFO 23836 --- [XNIO-1 task-46] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:55399
+2021-09-26 12:46:20.145  INFO 23836 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2021-09-26 12:46:23.007  INFO 23836 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "138085700133322753", "sessionId": "8c51d69fc314dcd13b025b9186347ad2", "event": {"token": "6ce1f09839c21c0e", "guild_id": "138085700133322753", "endpoint": "santa-clara1061.discord.media:443"}}
+2021-09-26 12:46:27.131  INFO 23836 --- [XNIO-1 task-47] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=2ZIpFytCSVc"
+2021-09-26 12:46:27.439  INFO 23836 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Bruh Sound Effect #2
+2021-09-26 12:46:27.724  INFO 23836 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAewIAFEJydWggU291bmQgRWZmZWN0ICMyAA1KYW1lIEJlbmVkaWN0AAAAAAAAA+gACzJaSXBGeXRDU1ZjAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MlpJcEZ5dENTVmMAB3lvdXR1YmUAAAAAAAAAAA==", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 12:46:29.566  INFO 23836 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "138085700133322753"}
+2021-09-26 12:46:44.585  WARN 23836 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Shutdown resumable session with key music-node because it has the same key as a newly disconnected resumable session.
+2021-09-26 12:46:44.586  INFO 23836 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 12:46:44.587  INFO 23836 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:55399 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2021-09-26 12:47:17.271  INFO 23836 --- [pool-18-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 12:47:44.591  INFO 23836 --- [pool-19-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 12:49:22.392  INFO 23836 --- [XNIO-1 task-49] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:60979
+2021-09-26 12:49:22.394  INFO 23836 --- [XNIO-1 task-49] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:60979
+2021-09-26 12:49:22.395  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2021-09-26 12:49:25.115  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "138085700133322753", "sessionId": "53a883465d928f141587f2bebed1355f", "event": {"token": "9cef96ed4adcfb52", "guild_id": "138085700133322753", "endpoint": "santa-clara1061.discord.media:443"}}
+2021-09-26 12:49:29.253  INFO 23836 --- [XNIO-1 task-50] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=2ZIpFytCSVc"
+2021-09-26 12:49:29.610  INFO 23836 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Bruh Sound Effect #2
+2021-09-26 12:49:29.850  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAewIAFEJydWggU291bmQgRWZmZWN0ICMyAA1KYW1lIEJlbmVkaWN0AAAAAAAAA+gACzJaSXBGeXRDU1ZjAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MlpJcEZ5dENTVmMAB3lvdXR1YmUAAAAAAAAAAA==", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 12:49:31.446  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "138085700133322753"}
+2021-09-26 12:51:27.934  INFO 23836 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:60979 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2021-09-26 12:51:30.850  INFO 23836 --- [XNIO-1 task-52] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:56759
+2021-09-26 12:51:30.852  INFO 23836 --- [XNIO-1 task-52] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:56759
+2021-09-26 12:51:30.853  INFO 23836 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2021-09-26 12:51:45.777  INFO 23836 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "138085700133322753", "sessionId": "f778cb6b0a4245e9772d393b1af7815a", "event": {"token": "9cef96ed4adcfb52", "guild_id": "138085700133322753", "endpoint": "santa-clara1061.discord.media:443"}}
+2021-09-26 12:51:57.262  INFO 23836 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "138085700133322753", "sessionId": "f778cb6b0a4245e9772d393b1af7815a", "event": {"token": "69333da81d333acf", "guild_id": "138085700133322753", "endpoint": "santa-clara1061.discord.media:443"}}
+2021-09-26 12:52:02.006  INFO 23836 --- [XNIO-1 task-53] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=2ZIpFytCSVc"
+2021-09-26 12:52:02.319  INFO 23836 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Bruh Sound Effect #2
+2021-09-26 12:52:02.519  INFO 23836 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "138085700133322753", "track": "QAAAewIAFEJydWggU291bmQgRWZmZWN0ICMyAA1KYW1lIEJlbmVkaWN0AAAAAAAAA+gACzJaSXBGeXRDU1ZjAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MlpJcEZ5dENTVmMAB3lvdXR1YmUAAAAAAAAAAA==", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 12:52:04.115  INFO 23836 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "138085700133322753"}
+2021-09-26 12:52:15.115  INFO 23836 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "138085700133322753"}
+2021-09-26 12:52:27.936  INFO 23836 --- [pool-20-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 12:52:33.111  INFO 23836 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "735194649303449704", "sessionId": "f778cb6b0a4245e9772d393b1af7815a", "event": {"token": "e291a2da46fe8902", "guild_id": "735194649303449704", "endpoint": "us-west5303.discord.media:443"}}
+2021-09-26 12:52:34.578  INFO 23836 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "735194649303449704"}
+2021-09-26 12:55:42.217  INFO 23836 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:56759 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2021-09-26 12:55:45.076  INFO 23836 --- [XNIO-1 task-55] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:59146
+2021-09-26 12:55:45.079  INFO 23836 --- [XNIO-1 task-55] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:59146
+2021-09-26 12:55:45.080  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2021-09-26 12:55:50.295  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "735194649303449704", "sessionId": "3d3018f309157d32fb62ad3666b4bc44", "event": {"token": "eff3980b1cdd8d70", "guild_id": "735194649303449704", "endpoint": "us-west5303.discord.media:443"}}
+2021-09-26 12:55:56.475  INFO 23836 --- [XNIO-1 task-56] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:bruh sound effect #2"
+2021-09-26 12:55:57.153  INFO 23836 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: bruh sound effect #2
+2021-09-26 12:55:57.290  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "735194649303449704", "track": "QAAAewIAFEJydWggU291bmQgRWZmZWN0ICMyAA1KYW1lIEJlbmVkaWN0AAAAAAAAB9AACzJaSXBGeXRDU1ZjAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MlpJcEZ5dENTVmMAB3lvdXR1YmUAAAAAAAAAAA==", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 12:55:58.882  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "735194649303449704"}
+2021-09-26 12:56:42.230  INFO 23836 --- [pool-21-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 12:57:43.992  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:59146 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2021-09-26 12:57:46.962  INFO 23836 --- [XNIO-1 task-58] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:59226
+2021-09-26 12:57:46.965  INFO 23836 --- [XNIO-1 task-58] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:59226
+2021-09-26 12:57:46.966  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2021-09-26 12:57:55.627  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "735194649303449704", "sessionId": "c0006a5e3b8e5543070e8c371358d62e", "event": {"token": "aabe24e318caddd8", "guild_id": "735194649303449704", "endpoint": "us-west5303.discord.media:443"}}
+2021-09-26 12:58:00.839  INFO 23836 --- [XNIO-1 task-59] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:bruh sound effect #2"
+2021-09-26 12:58:01.388  INFO 23836 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: bruh sound effect #2
+2021-09-26 12:58:01.556  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "735194649303449704", "track": "QAAAewIAFEJydWggU291bmQgRWZmZWN0ICMyAA1KYW1lIEJlbmVkaWN0AAAAAAAAB9AACzJaSXBGeXRDU1ZjAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MlpJcEZ5dENTVmMAB3lvdXR1YmUAAAAAAAAAAA==", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 12:58:03.401  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "735194649303449704"}
+2021-09-26 12:58:18.096  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "735194649303449704", "sessionId": "c0006a5e3b8e5543070e8c371358d62e", "event": {"token": "b3e8ca436326054f", "guild_id": "735194649303449704", "endpoint": "us-west5303.discord.media:443"}}
+2021-09-26 12:58:18.827  INFO 23836 --- [XNIO-1 task-61] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:bruh sound effect #2"
+2021-09-26 12:58:19.597  INFO 23836 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: bruh sound effect #2
+2021-09-26 12:58:19.756  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "735194649303449704", "track": "QAAAewIAFEJydWggU291bmQgRWZmZWN0ICMyAA1KYW1lIEJlbmVkaWN0AAAAAAAAB9AACzJaSXBGeXRDU1ZjAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MlpJcEZ5dENTVmMAB3lvdXR1YmUAAAAAAAAAAA==", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 12:58:21.303  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "735194649303449704"}
+2021-09-26 12:58:44.003  INFO 23836 --- [pool-22-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 12:58:45.814  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:59226 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2021-09-26 12:58:48.805  INFO 23836 --- [XNIO-1 task-63] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:59542
+2021-09-26 12:58:48.808  INFO 23836 --- [XNIO-1 task-63] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:59542
+2021-09-26 12:58:48.810  INFO 23836 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2021-09-26 12:58:51.051  INFO 23836 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "735194649303449704", "sessionId": "5f181c040761f2f588ae83ef752f9f25", "event": {"token": "826c6eaccf7f9933", "guild_id": "735194649303449704", "endpoint": "us-west5303.discord.media:443"}}
+2021-09-26 12:58:52.692  INFO 23836 --- [XNIO-1 task-64] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:bruh sound effect #2"
+2021-09-26 12:58:53.198  INFO 23836 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: bruh sound effect #2
+2021-09-26 12:58:53.334  INFO 23836 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "735194649303449704", "track": "QAAAewIAFEJydWggU291bmQgRWZmZWN0ICMyAA1KYW1lIEJlbmVkaWN0AAAAAAAAB9AACzJaSXBGeXRDU1ZjAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MlpJcEZ5dENTVmMAB3lvdXR1YmUAAAAAAAAAAA==", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 12:58:54.896  INFO 23836 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "735194649303449704"}
+2021-09-26 12:58:56.124  INFO 23836 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:bruh sound effect #2"
+2021-09-26 12:58:56.702  INFO 23836 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: bruh sound effect #2
+2021-09-26 12:58:56.888  INFO 23836 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "735194649303449704", "track": "QAAAewIAFEJydWggU291bmQgRWZmZWN0ICMyAA1KYW1lIEJlbmVkaWN0AAAAAAAAB9AACzJaSXBGeXRDU1ZjAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MlpJcEZ5dENTVmMAB3lvdXR1YmUAAAAAAAAAAA==", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 12:58:58.445  INFO 23836 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "735194649303449704"}
+2021-09-26 12:59:45.825  INFO 23836 --- [pool-23-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 13:00:30.306  INFO 23836 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:59542 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2021-09-26 13:01:30.312  INFO 23836 --- [pool-24-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 15:47:41.085  INFO 23836 --- [XNIO-1 task-4] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:63762
+2021-09-26 15:47:41.106  INFO 23836 --- [XNIO-1 task-4] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:63762
+2021-09-26 15:47:41.109  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2021-09-26 15:47:42.404  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "735194649303449704", "sessionId": "31f9dff4e3ea80f7f667082191e9d0d6", "event": {"token": "124b72e0c7c46104", "guild_id": "735194649303449704", "endpoint": "us-west5303.discord.media:443"}}
+2021-09-26 15:48:04.698  INFO 23836 --- [XNIO-1 task-5] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=fi_satic-bE"
+2021-09-26 15:48:05.219  INFO 23836 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track pinkpantheress - Just For Me (Lyrics)
+2021-09-26 15:48:05.405  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "735194649303449704", "track": "QAAAiwIAJXBpbmtwYW50aGVyZXNzIC0gSnVzdCBGb3IgTWUgKEx5cmljcykADENsb3VkeCBNdXNpYwAAAAAAAa2wAAtmaV9zYXRpYy1iRQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWZpX3NhdGljLWJFAAd5b3V0dWJlAAAAAAAAAAA=", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 15:49:56.232  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "735194649303449704"}
+2021-09-26 15:51:27.304  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:63762 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2021-09-26 15:52:27.313  INFO 23836 --- [pool-25-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 15:56:05.243  INFO 23836 --- [XNIO-1 task-7] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:51657
+2021-09-26 15:56:05.245  INFO 23836 --- [XNIO-1 task-7] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:51657
+2021-09-26 15:56:05.246  INFO 23836 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2021-09-26 15:56:08.061  INFO 23836 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "735194649303449704", "sessionId": "ae5b8fd7f7aa0489a752acbd0a57244d", "event": {"token": "03ae052fdea958d7", "guild_id": "735194649303449704", "endpoint": "us-west7085.discord.media:443"}}
+2021-09-26 15:56:13.233  INFO 23836 --- [XNIO-1 task-8] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:amongus"
+2021-09-26 15:56:14.091  INFO 23836 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: amongus
+2021-09-26 15:56:14.268  INFO 23836 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "735194649303449704", "track": "QAAAfAIAGypNSU5FQ1JBRlQqIE1PRCBpbiBBbW9uZyBVcwAHU1N1bmRlZQAAAAAADW2AAAtxVi1mNXBWMHNQUQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PXFWLWY1cFYwc1BRAAd5b3V0dWJlAAAAAAAAAAA=", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 15:56:31.879  INFO 23836 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:51657 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2021-09-26 15:56:34.709  INFO 23836 --- [XNIO-1 task-10] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:60530
+2021-09-26 15:56:34.710  INFO 23836 --- [XNIO-1 task-10] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:60530
+2021-09-26 15:56:34.712  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2021-09-26 15:57:27.096  WARN 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : Shutdown resumable session with key music-node because it has the same key as a newly disconnected resumable session.
+2021-09-26 15:57:27.097  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2021-09-26 15:57:27.098  INFO 23836 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:60530 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2021-09-26 15:57:30.099  INFO 23836 --- [XNIO-1 task-11] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:59670
+2021-09-26 15:57:30.101  INFO 23836 --- [XNIO-1 task-11] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:59670
+2021-09-26 15:57:30.102  INFO 23836 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2021-09-26 15:57:31.884  INFO 23836 --- [pool-26-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 15:58:27.113  INFO 23836 --- [pool-27-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 15:59:31.028  INFO 23836 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:59670 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2021-09-26 15:59:33.950  INFO 23836 --- [XNIO-1 task-12] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:58029
+2021-09-26 15:59:33.951  INFO 23836 --- [XNIO-1 task-12] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:58029
+2021-09-26 15:59:33.952  INFO 23836 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2021-09-26 16:00:31.041  INFO 23836 --- [pool-28-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 16:01:16.605  INFO 23836 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "735194649303449704", "sessionId": "12ed39da6acc92ee5d36ab63487644d6", "event": {"token": "9dbb764b926fc789", "guild_id": "735194649303449704", "endpoint": "us-west7085.discord.media:443"}}
+2021-09-26 16:01:23.200  INFO 23836 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "138085700133322753", "sessionId": "12ed39da6acc92ee5d36ab63487644d6", "event": {"token": "3bb5d352de099e8c", "guild_id": "138085700133322753", "endpoint": "us-west818.discord.media:443"}}
+2021-09-26 16:01:35.003  INFO 23836 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "138085700133322753"}
+2021-09-26 16:01:43.858  INFO 23836 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "735194649303449704"}
+2021-09-26 16:02:05.282  INFO 23836 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:58029 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2021-09-26 16:03:05.284  INFO 23836 --- [pool-29-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 16:05:45.664  INFO 20792 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.3.2.5
+	Build:          1222
+	Build time:     11.04.2021 08:07:27 UTC
+	Branch          master
+	Commit:         7b914f2
+	Commit time:    09.04.2021 17:14:27 UTC
+	JVM:            11.0.8
+	Lavaplayer      1.3.76
+
+2021-09-26 16:05:45.737  INFO 20792 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-NGKPUUI with PID 20792 (C:\Users\Remag_OW\PycharmProjects\pyDiscordBotAttempt2\Lavalink.jar started by Remag_OW in C:\Users\Remag_OW\PycharmProjects\pyDiscordBotAttempt2)
+2021-09-26 16:05:45.738  INFO 20792 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-09-26 16:05:45.810  WARN 20792 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-26 16:05:46.647  WARN 20792 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-09-26 16:05:46.664  INFO 20792 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-09-26 16:05:46.664  INFO 20792 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 898 ms
+2021-09-26 16:05:46.898  WARN 20792 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-09-26 16:05:47.072  INFO 20792 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-09-26 16:05:47.184  INFO 20792 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-09-26 16:05:47.184  WARN 20792 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-09-26 16:05:47.340  INFO 20792 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-26 16:05:47.522  INFO 20792 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-09-26 16:05:47.529  INFO 20792 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-09-26 16:05:47.566  INFO 20792 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 7000 (http) with context path ''
+2021-09-26 16:05:47.570  INFO 20792 --- [main] lavalink.server.Launcher                 : Started Launcher in 2.231 seconds (JVM running for 2.548)
+2021-09-26 16:05:47.571  INFO 20792 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/Frederikam/Lavalink/issues/295
+2021-09-26 16:05:58.945  INFO 20792 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-26 16:05:58.946  INFO 20792 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-26 16:05:58.952  INFO 20792 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2021-09-26 16:05:58.968  INFO 20792 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:59472
+2021-09-26 16:05:59.013  INFO 20792 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:59472
+2021-09-26 16:05:59.025  INFO 20792 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2021-09-26 16:06:04.444  INFO 20792 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "735194649303449704", "sessionId": "65b0d06c344d95e0759a6ab2d532eebf", "event": {"token": "927e13769f1fa8bd", "guild_id": "735194649303449704", "endpoint": "us-west7085.discord.media:443"}}
+2021-09-26 16:06:07.145  INFO 20792 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:lucid dreams"
+2021-09-26 16:06:08.030  INFO 20792 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: lucid dreams
+2021-09-26 16:06:08.186  INFO 20792 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "735194649303449704", "track": "QAAAngIANEp1aWNlIFdSTEQgLSBMdWNpZCBEcmVhbXMgKERpcmVjdGVkIGJ5IENvbGUgQmVubmV0dCkAEEx5cmljYWwgTGVtb25hZGUAAAAAAAOGWAALbXpCMVZHRUdjU1UAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1tekIxVkdFR2NTVQAHeW91dHViZQAAAAAAAAAA", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 16:09:01.447  INFO 20792 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:59472 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2021-09-26 16:09:04.422  INFO 20792 --- [XNIO-1 task-4] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:54479
+2021-09-26 16:09:04.424  INFO 20792 --- [XNIO-1 task-4] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:54479
+2021-09-26 16:09:04.427  INFO 20792 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2021-09-26 16:09:10.191  WARN 20792 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Shutdown resumable session with key music-node because it has the same key as a newly disconnected resumable session.
+2021-09-26 16:09:10.191  INFO 20792 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2021-09-26 16:09:10.194  INFO 20792 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:54479 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2021-09-26 16:09:34.444  INFO 20792 --- [XNIO-1 task-5] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:55628
+2021-09-26 16:09:34.445  INFO 20792 --- [XNIO-1 task-5] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:55628
+2021-09-26 16:09:34.447  INFO 20792 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2021-09-26 16:09:44.223  WARN 20792 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : Shutdown resumable session with key music-node because it has the same key as a newly disconnected resumable session.
+2021-09-26 16:09:44.223  INFO 20792 --- [XNIO-1 I/O-5] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 16:09:44.224  INFO 20792 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:55628 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2021-09-26 16:10:01.463  INFO 20792 --- [pool-1-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 16:10:10.197  INFO 20792 --- [pool-2-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 16:10:44.228  INFO 20792 --- [pool-3-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 16:12:04.866  INFO 9720 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.3.2.5
+	Build:          1222
+	Build time:     11.04.2021 08:07:27 UTC
+	Branch          master
+	Commit:         7b914f2
+	Commit time:    09.04.2021 17:14:27 UTC
+	JVM:            11.0.8
+	Lavaplayer      1.3.76
+
+2021-09-26 16:12:04.934  INFO 9720 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-NGKPUUI with PID 9720 (C:\Users\Remag_OW\PycharmProjects\pyDiscordBotAttempt2\Lavalink.jar started by Remag_OW in C:\Users\Remag_OW\PycharmProjects\pyDiscordBotAttempt2)
+2021-09-26 16:12:04.934  INFO 9720 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-09-26 16:12:05.003  WARN 9720 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-26 16:12:05.742  WARN 9720 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-09-26 16:12:05.759  INFO 9720 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-09-26 16:12:05.760  INFO 9720 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 797 ms
+2021-09-26 16:12:06.002  WARN 9720 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-09-26 16:12:06.175  INFO 9720 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-09-26 16:12:06.288  INFO 9720 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-09-26 16:12:06.289  WARN 9720 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-09-26 16:12:06.433  INFO 9720 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-26 16:12:06.613  INFO 9720 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-09-26 16:12:06.620  INFO 9720 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-09-26 16:12:06.661  INFO 9720 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 7000 (http) with context path ''
+2021-09-26 16:12:06.664  INFO 9720 --- [main] lavalink.server.Launcher                 : Started Launcher in 2.118 seconds (JVM running for 2.432)
+2021-09-26 16:12:06.666  INFO 9720 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/Frederikam/Lavalink/issues/295
+2021-09-26 16:12:13.623  INFO 9720 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-26 16:12:13.624  INFO 9720 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-26 16:12:13.629  INFO 9720 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2021-09-26 16:12:13.644  INFO 9720 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:61154
+2021-09-26 16:12:13.690  INFO 9720 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:61154
+2021-09-26 16:12:13.702  INFO 9720 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2021-09-26 16:12:17.733  INFO 9720 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "735194649303449704", "sessionId": "c586aced134631adbfd5682bda912cf0", "event": {"token": "a5344d4045f07726", "guild_id": "735194649303449704", "endpoint": "us-west7085.discord.media:443"}}
+2021-09-26 16:12:23.864  INFO 9720 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:bruh sound effect"
+2021-09-26 16:12:24.739  INFO 9720 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: bruh sound effect
+2021-09-26 16:12:24.947  INFO 9720 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "735194649303449704", "track": "QAAAewIAFEJydWggU291bmQgRWZmZWN0ICMyAA1KYW1lIEJlbmVkaWN0AAAAAAAAB9AACzJaSXBGeXRDU1ZjAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MlpJcEZ5dENTVmMAB3lvdXR1YmUAAAAAAAAAAA==", "startTime": 0, "endTime": 0, "noReplace": false}
+2021-09-26 16:12:26.887  INFO 9720 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "735194649303449704"}
+2021-09-26 16:13:57.308  INFO 9720 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:61154 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2021-09-26 16:14:57.321  INFO 9720 --- [pool-1-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 16:15:10.541  INFO 9720 --- [XNIO-1 task-4] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:62216
+2021-09-26 16:15:10.544  INFO 9720 --- [XNIO-1 task-4] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:62216
+2021-09-26 16:15:10.546  INFO 9720 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2021-09-26 16:15:16.048  INFO 9720 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "735194649303449704", "sessionId": "1305f6884674eb9b570c08be6c4857cf", "event": {"token": "2f1beb42285acb85", "guild_id": "735194649303449704", "endpoint": "us-west7085.discord.media:443"}}
+2021-09-26 16:15:18.154  INFO 9720 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "735194649303449704"}
+2021-09-26 16:21:06.145  INFO 9720 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:62216 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2021-09-26 16:22:06.152  INFO 9720 --- [pool-2-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 16:22:18.065  INFO 9720 --- [XNIO-1 task-5] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:61287
+2021-09-26 16:22:18.068  INFO 9720 --- [XNIO-1 task-5] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:61287
+2021-09-26 16:22:18.069  INFO 9720 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2021-09-26 16:22:27.899  INFO 9720 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "735194649303449704", "sessionId": "1be806110e3da1607eda0e5b918a4ab5", "event": {"token": "a121920d41e3361b", "guild_id": "735194649303449704", "endpoint": "us-west7085.discord.media:443"}}
+2021-09-26 16:22:28.956  INFO 9720 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "735194649303449704"}
+2021-09-26 16:27:45.248  INFO 9720 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:61287 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2021-09-26 16:27:48.204  INFO 9720 --- [XNIO-1 task-6] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:51039
+2021-09-26 16:27:48.205  INFO 9720 --- [XNIO-1 task-6] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:51039
+2021-09-26 16:27:48.206  INFO 9720 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2021-09-26 16:28:45.258  INFO 9720 --- [pool-3-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 16:29:20.457  INFO 9720 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:51039 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2021-09-26 16:29:25.010  INFO 9720 --- [XNIO-1 task-7] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:53966
+2021-09-26 16:29:25.012  INFO 9720 --- [XNIO-1 task-7] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:53966
+2021-09-26 16:29:25.013  INFO 9720 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2021-09-26 16:29:40.156  WARN 9720 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Shutdown resumable session with key music-node because it has the same key as a newly disconnected resumable session.
+2021-09-26 16:29:40.157  INFO 9720 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 16:29:40.157  INFO 9720 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:53966 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2021-09-26 16:29:45.009  INFO 9720 --- [XNIO-1 task-8] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:53988
+2021-09-26 16:29:45.011  INFO 9720 --- [XNIO-1 task-8] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:53988
+2021-09-26 16:29:45.012  INFO 9720 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2021-09-26 16:30:01.435  WARN 9720 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : Shutdown resumable session with key music-node because it has the same key as a newly disconnected resumable session.
+2021-09-26 16:30:01.435  INFO 9720 --- [XNIO-1 I/O-5] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 16:30:01.435  INFO 9720 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:53988 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2021-09-26 16:30:04.305  INFO 9720 --- [XNIO-1 task-9] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:54038
+2021-09-26 16:30:04.307  INFO 9720 --- [XNIO-1 task-9] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:54038
+2021-09-26 16:30:04.308  INFO 9720 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2021-09-26 16:30:06.420  INFO 9720 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "735194649303449704", "sessionId": "0a64c1ccd61855d6ee09f4dc868fb677", "event": {"token": "14b03a509f1297b2", "guild_id": "735194649303449704", "endpoint": "us-west7085.discord.media:443"}}
+2021-09-26 16:30:07.201  INFO 9720 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "735194649303449704"}
+2021-09-26 16:30:20.471  INFO 9720 --- [pool-4-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-26 16:30:40.159  INFO 9720 --- [pool-5-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
